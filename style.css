@@ -1,0 +1,52 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #9fabb2;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #4c545d;
+}
+
+.container {
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    background: url(/images/bg-header-desktop.png) no-repeat;
+}
+
+.bloco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+    max-width: 590px;
+}
+
+.texto-bloco {
+    margin-top: 35px;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+}
