@@ -9,11 +9,12 @@ body {
 
 h1 {
     color: #4c545d;
+    font-size: 2.725rem;
 }
 
 .container {
     width: 1440px;
-    display: flex;
+    display: grid;
     justify-content: center;
     background: url(/images/bg-header-desktop.png) no-repeat;
 }
@@ -25,16 +26,39 @@ h1 {
     align-items: center;
     text-align: center;
     margin-top: 150px;
-    max-width: 590px;
+    max-width: 700px;
 }
 
 .texto-bloco {
     margin-top: 35px;
-    font-size: 17px;
+    font-size: 19px;
     line-height: 25px;
 }
 
+.botoes {
+    display: flex;
+    justify-content: center;
+}
 
+.btn-ios {
+    background: #26baa4;
+    padding: 15px 40px;
+    border-radius: 35px;
+    margin: 35px 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.btn-mac {
+    background: #6173ff;
+    padding: 15px 40px;
+    border-radius: 35px;
+    margin: 35px 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
 
 
 
