@@ -50,6 +50,10 @@ h1 {
     font-size: 18px;
 }
 
+.btn-ios:hover {
+    box-shadow: 0 1px 10px #26baa4;
+}
+
 .btn-mac {
     background: #6173ff;
     padding: 15px 40px;
@@ -60,7 +64,9 @@ h1 {
     font-size: 18px;
 }
 
-
+.btn-mac:hover {
+    box-shadow: 0 1px 10px #6173ff;
+}
 
 .attribution { 
     font-size: 11px; 
@@ -70,7 +76,3 @@ h1 {
     color: hsl(228, 45%, 44%); 
 }
 
-footer {
-    position: fixed;
-    bottom: 20px;
-}
