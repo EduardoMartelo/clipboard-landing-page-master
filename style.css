@@ -41,6 +41,19 @@ h3 {
     justify-content: center;
 }
 
+.container-3 {
+    margin-top: 25px;
+    width: 1440px;
+    display: grid;
+    justify-content: center;
+}
+
+.container-4 {
+    width: 1440px;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 100px;
+}
 
 .texto-bloco {
     margin-top: 35px;
@@ -139,6 +152,24 @@ h3 {
     padding-bottom: 25px;
 }
 
+.bloco-7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 1200px;
+}
+
+.bloco-7 img {
+    height: 45px;
+}
+
+.bloco-7 .hp{
+    height: 45px;
+    width: 100px;
+}
+
 .botoes {
     display: flex;
     justify-content: center;
@@ -170,6 +201,47 @@ h3 {
 
 .btn-mac:hover {
     box-shadow: 0 1px 10px #6173ff;
+}
+
+
+footer {
+    background: #f1f2f3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 85px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 150px;
+}
+
+.links-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 570px;
+}
+
+.links-footer a {
+    text-decoration: none;
+    color: #4c545d;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 7px 0 7px 0;
+}
+
+.links-footer a:hover {
+    color: #26baa4;
+}
+
+.logo-footer img {
+    width: 55px;
+}
+
+.redes-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-left: 70px;
 }
 
 .attribution { 
