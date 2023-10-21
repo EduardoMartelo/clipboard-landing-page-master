@@ -115,6 +115,29 @@ h3 {
     max-width: 700px;
 }
 
+.bloco-6 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    min-width: 1440px;
+}
+
+.bloco-6-texto {
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.bloco-6-paragrafo {
+    width: 370px;
+    margin: 0 15px;
+}
+
+.bloco-6-paragrafo img {
+    padding-bottom: 25px;
+}
 
 .botoes {
     display: flex;
