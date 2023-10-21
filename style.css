@@ -3,9 +3,11 @@ body {
     padding: 0;
     font-family: 'Bai Jamjuree', sans-serif;
     color: #9fabb2;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     overflow-x: hidden;
+    max-width: 1440px;
 }
 
 h1 {
@@ -261,60 +263,6 @@ footer {
 
 @media (max-width: 1223px) {
 
-   .container, .container-2, .container-4 {
-    display: grid;
-    place-items: center;
-    width: 100%;
-  }
-
-  .bloco, .bloco-2, .bloco-4, .bloco-5 {
-    width: 50%;
-  } 
-
-  h1, h2 {
-    line-height: 45px;
-    }
-  
-  .botoes {
-    flex-direction: column;
-    justify-content: center;
-    width: 250px;
-  }
-  
-  .texto-bloco {
-    margin: 0;
-    text-align: center;
-  }
-
-  .bloco-3,.bloco-6-texto {
-    display: grid;
-    justify-content: center;
-  }
-
-  .bloco-3 img, .bloco-4 img {
-    width: 340px;
-    margin-left: 15px;
-  }
-
-  .bloco-3-texto {
-    text-align: center;
-  }
-
-  .bloco-3-paragrafo {
-    display: grid;
-    justify-content: center;
-    margin: 0;
-  }
-
-  .bloco-7 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .bloco-7 img {
-    margin-bottom: 70px;
-  }
 
   footer {
     height: 100%;
