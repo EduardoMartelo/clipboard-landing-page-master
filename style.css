@@ -230,6 +230,10 @@ footer {
 }
 
 .links-footer a:hover {
+    opacity: 0;
+}
+
+.links-footer a:hover {
     color: #26baa4;
 }
 
@@ -242,6 +246,10 @@ footer {
     justify-content: space-between;
     gap: 25px;
     margin-left: 70px;
+}
+
+.redes-footer a:hover {
+    border-bottom: 1px solid #26baa4;
 }
 
 .attribution { 
