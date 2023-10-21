@@ -230,10 +230,6 @@ footer {
 }
 
 .links-footer a:hover {
-    opacity: 0;
-}
-
-.links-footer a:hover {
     color: #26baa4;
 }
 
@@ -260,3 +256,42 @@ footer {
     color: hsl(228, 45%, 44%); 
 }
 
+@media (max-width: 1223px) {
+
+  .container, .container-4 {
+    display: grid;
+    place-items: center;
+    width: 100%;
+  }
+
+  h1 {
+    line-height: 45px;
+    }
+  
+  .botoes {
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+  }
+  
+  .texto-bloco {
+    max-width: 95%;
+  }
+
+  .bloco-3 {
+    display: grid;
+    place-items: center;
+  }
+
+  .bloco-3 img {
+    max-width: 50%;
+  }
+
+  .bloco-3-texto {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1223px) {
+   
+}
