@@ -258,13 +258,17 @@ footer {
 
 @media (max-width: 1223px) {
 
-  .container, .container-4 {
+  .container, .container-2, .container-4 {
     display: grid;
     place-items: center;
     width: 100%;
   }
 
-  h1 {
+  .bloco, .bloco-2, .bloco-4, .bloco-5 {
+    width: 50%;
+  } 
+
+  h1, h2 {
     line-height: 45px;
     }
   
@@ -275,20 +279,28 @@ footer {
   }
   
   .texto-bloco {
-    max-width: 95%;
+    margin: 0;
+    text-align: center;
   }
 
   .bloco-3 {
     display: grid;
-    place-items: center;
+    justify-content: center;
   }
 
-  .bloco-3 img {
-    max-width: 50%;
+  .bloco-3 img, .bloco-4 img {
+    width: 340px;
+    margin-left: 15px;
   }
 
   .bloco-3-texto {
     text-align: center;
+  }
+
+  .bloco-3-paragrafo {
+    display: grid;
+    justify-content: center;
+    margin: 0;
   }
 }
 
