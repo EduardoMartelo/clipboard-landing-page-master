@@ -3,14 +3,29 @@ body {
     padding: 0;
     font-family: 'Bai Jamjuree', sans-serif;
     color: #9fabb2;
-    display: flex;
+    display: grid;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 h1 {
     color: #4c545d;
     font-size: 2.725rem;
 }
+
+h2 {
+    color: #4c545d;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+h3 {
+    color: #4c545d;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 5px;
+}
+
 
 .container {
     width: 1440px;
@@ -19,21 +34,87 @@ h1 {
     background: url(/images/bg-header-desktop.png) no-repeat;
 }
 
+.container-2 {
+    margin-top: 25px;
+    width: 1440px;
+    display: grid;
+    justify-content: center;
+}
+
+
+.texto-bloco {
+    margin-top: 35px;
+    font-size: 19px;
+    line-height: 27px;
+}
+
 .bloco {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 100px;
     max-width: 700px;
 }
 
-.texto-bloco {
-    margin-top: 35px;
-    font-size: 19px;
-    line-height: 25px;
+.bloco-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    max-width: 700px;
 }
+
+.bloco-3 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    min-width: 1440px;
+}
+
+.bloco-3 img {
+    position: relative;
+}
+
+.bloco-3-texto {
+    font-size: 17px;
+    max-width: 370px;
+    line-height: 30px;
+    margin-top: 45px;
+
+}
+
+.bloco-3-paragrafo {
+    margin-bottom: 75px;
+}
+
+.bloco-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    max-width: 700px;
+}
+
+.bloco-4 img {
+    margin-top: 100px;
+}
+
+.bloco-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+    max-width: 700px;
+}
+
 
 .botoes {
     display: flex;
