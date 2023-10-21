@@ -251,6 +251,9 @@ footer {
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    background: #f1f2f3;
+    margin: 0;
+    padding-bottom: 25px;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
@@ -258,7 +261,7 @@ footer {
 
 @media (max-width: 1223px) {
 
-  .container, .container-2, .container-4 {
+   .container, .container-2, .container-4 {
     display: grid;
     place-items: center;
     width: 100%;
@@ -283,7 +286,7 @@ footer {
     text-align: center;
   }
 
-  .bloco-3 {
+  .bloco-3,.bloco-6-texto {
     display: grid;
     justify-content: center;
   }
@@ -302,8 +305,40 @@ footer {
     justify-content: center;
     margin: 0;
   }
+
+  .bloco-7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .bloco-7 img {
+    margin-bottom: 70px;
+  }
+
+  footer {
+    height: 100%;
+    flex-direction: column;
+    justify-self: center; 
+  }     
+
+  .logo-footer {
+    margin: 25px;
+  }
+
+  .links-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 160px;
+  }
+
+  .links-footer a {
+    margin: 10px;
+  }
+
+  .redes-footer {
+   margin: 35px 0;
+  }
 }
 
-@media (max-width: 1223px) {
-   
-}
