@@ -10,6 +10,7 @@ body {
     max-width: 1440px;
 }
 
+
 h1 {
     color: #4c545d;
     font-size: 2.725rem;
@@ -263,30 +264,87 @@ footer {
 
 @media (max-width: 1223px) {
 
+    h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
 
-  footer {
-    height: 100%;
-    flex-direction: column;
-    justify-self: center; 
-  }     
+    h2 {
+        font-size: 27px;
+        line-height: 35px;
+    }
+    
+    .container {
+        max-width: 100%;
+    }
 
-  .logo-footer {
-    margin: 25px;
-  }
+    .container .botoes {
+        display: flex;
+        justify-content: center;
+    }
 
-  .links-footer {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 160px;
-  }
+    .btn-ios, .btn-mac {
+        text-align: center;
+        margin: 10px 40px;
+    }
 
-  .links-footer a {
-    margin: 10px;
-  }
+    .texto-bloco {
+        font-size: 15px;
+        width: 80%;
+    }
 
-  .redes-footer {
-   margin: 35px 0;
-  }
+    .bloco-2 {
+        margin: 0 10px;
+    }
+
+    .bloco-3 {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 32px;
+    }
+
+    .bloco-3 img {
+        width: 310px;
+    }
+
+    .bloco-3-texto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+
+
+    footer {
+        height: 100%;
+        flex-direction: column;
+        justify-self: center; 
+    }     
+
+    .logo-footer {
+        margin: 25px;
+    }
+
+    .links-footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 160px;
+    }
+
+    .links-footer a {
+        margin: 10px;
+    }
+
+    .redes-footer {
+    margin: 35px 0;
+    }
 }
 
+
+@media (max-width: 614px) {
+    .botoes {
+        flex-direction: column;
+    }
+}
