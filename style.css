@@ -274,7 +274,7 @@ footer {
         line-height: 35px;
     }
     
-    .container {
+    .container, .container-2, .container-3, .container-4 {
         max-width: 100%;
     }
 
@@ -323,10 +323,6 @@ footer {
         font-size: 15px;
     }
 
-    .container-2 {
-        max-width: 100%;
-    }
-
     .bloco-4  {
     padding-bottom: 0;
     }
@@ -360,6 +356,16 @@ footer {
     .bloco-6-paragrafo img {
         padding-bottom: 0;
     }
+
+    .bloco-7 {
+        flex-direction: column;
+        max-width: 375px;
+    }
+
+    .bloco-7 img {
+        padding-bottom: 65px;
+    }
+
 
     footer {
         height: 100%;
