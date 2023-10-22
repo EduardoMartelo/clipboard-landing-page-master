@@ -315,13 +315,28 @@ footer {
         justify-content: center;
         text-align: center;
         max-width: 100%;
-        margin: 0 45px;
+        margin: 45px;
     }
 
     .bloco-3-paragrafo {
         margin-bottom: 20px;
         font-size: 15px;
     }
+
+    .container-2 {
+        max-width: 100%;
+    }
+
+    .bloco-4  {
+    padding-bottom: 0;
+    }
+
+    .bloco-4 img {
+        align-self: center;
+        width: 90%;
+        margin: 45px 0;
+    }
+
 
 
     footer {
