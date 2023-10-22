@@ -298,22 +298,29 @@ footer {
     }
 
     .bloco-3 {
+        display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 0 32px;
+        min-width: 375px;
     }
 
     .bloco-3 img {
-        width: 310px;
+        align-self: center;
+        width: 80%;
     }
 
     .bloco-3-texto {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        text-align: center;
+        max-width: 100%;
+        margin: 0 30px;
     }
 
-
+    .bloco-3-paragrafo {
+        margin-bottom: 20px;
+    }
 
 
     footer {
@@ -346,5 +353,8 @@ footer {
 @media (max-width: 614px) {
     .botoes {
         flex-direction: column;
+    }
+    .bloco-3 img {
+        max-width: 100%;
     }
 }
