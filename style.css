@@ -351,10 +351,14 @@ footer {
     }
     
     .bloco-6-paragrafo {
-        margin: 0;
+        margin: 30px 0;
         font-size: 15px;
         width: 80%;
         align-self: center;
+    }
+
+    .bloco-6-paragrafo img {
+        padding-bottom: 0;
     }
 
     footer {
