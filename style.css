@@ -207,7 +207,7 @@ h3 {
 }
 
 
-footer {
+.info-footer {
     background: #f1f2f3;
     display: flex;
     justify-content: space-around;
@@ -367,7 +367,7 @@ footer {
     }
 
 
-    footer {
+    .info-footer {
         height: 100%;
         flex-direction: column;
         justify-self: center; 
